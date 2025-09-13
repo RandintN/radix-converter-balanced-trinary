@@ -1,3 +1,8 @@
+/*
+  radix-converter-balanced-trinary
+  Copyright (c) 2025 Robson Cassiano
+  Licensed under the MIT License. See the LICENSE file in the project root for full license information.
+*/
 document.addEventListener('DOMContentLoaded', () => {
   // === I18N ===
   const dictionaries = {
