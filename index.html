@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title">Conversor de Bases Numéricas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+
+<button id="lang-toggle" aria-label="Alternar idioma">PT • EN</button>
+
+<div id="main-container">
+  <div id="converter-container">
+    <header>
+      <h1 data-i18n="header">Conversor de Bases</h1>
+    </header>
+    <div class="input-grid">
+      <!-- Ordem baseada em Radix Economy (proximidade de 'e' ≈ 2.718) -->
+      <label for="btr" data-i18n="label_btr">Ternário B.</label>
+      <input type="text" id="btr" data-base="btr" placeholder="Base 3 (a mais eficiente)">
+
+      <label for="bin" data-i18n="label_bin">Binário</label>
+      <input type="text" id="bin" data-base="2" placeholder="Base 2">
+
+      <label for="oct" data-i18n="label_oct">Octal</label>
+      <input type="text" id="oct" data-base="8" placeholder="Base 8">
+
+      <label for="non" data-i18n="label_non">Nonário</label>
+      <input type="text" id="non" data-base="9" placeholder="Base 9">
+
+      <label for="dec" data-i18n="label_dec">Decimal</label>
+      <input type="text" id="dec" data-base="10" placeholder="Base 10">
+
+      <label for="hex" data-i18n="label_hex">Hex</label>
+      <input type="text" id="hex" data-base="16" placeholder="Base 16">
+    </div>
+  </div>
+  <div id="info-container">
+    <h3 id="info-title" data-i18n="info_title">Símbolos e Ordem</h3>
+    <p id="info-intro">A ordem das bases segue o princípio de <strong>Radix Economy</strong>, da mais eficiente para a menos eficiente.</p>
+    <ul id="info-list">
+      <li><strong>Ternário B.:</strong> <code>-</code>, <code>0</code>, <code>+</code> <small>(Balanceado)</small></li>
+      <li><strong>Binário:</strong> <code>0, 1</code></li>
+      <li><strong>Octal:</strong> <code>0-7</code></li>
+      <li><strong>Nonário:</strong> <code>0-8</code></li>
+      <li><strong>Decimal:</strong> <code>0-9</code></li>
+      <li><strong>Hexadecimal:</strong> <code>0-9</code>, <code>a-f</code></li>
+    </ul>
+    <p id="info-help">Digite um número em qualquer campo para converter para todas as outras bases.</p>
+    <span class="info-title" id="info-why">Por que o Ternário é melhor?</span>
+    <p id="info-paragraph">A base mais econômica para representar números é a constante de Euler, <em>e</em> (≈2.718). O sistema ternário (base 3) é o inteiro mais próximo de <em>e</em>, tornando-se a base mais eficiente em termos de custo e complexidade. <p> O Ternário Balanceado é ainda mais elegante, pois representa números negativos sem a necessidade de um bit de sinal.</p>
+  </div>
+</div>
+
+<script src="javascript\app.js"></script>
+</body>
+</html>
+
