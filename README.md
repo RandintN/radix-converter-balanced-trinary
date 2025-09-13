@@ -1,9 +1,10 @@
 # Radix Converter — Balanced Ternary
 
-PT-BR | EN
+[PT-BR](#pt-br) | [EN](#en)
 
 ---
 
+<a id="pt-br"></a>
 ## 🇧🇷 Visão Geral (PT-BR)
 Um conversor de bases numéricas com foco no Ternário Balanceado (−, 0, +). Permite inserir um número em qualquer base e ver a conversão em tempo real para as demais. A interface traz um botão para alternar o idioma entre Português e Inglês e explica, de forma resumida, o conceito de Radix Economy que motiva a ordem das bases.
 
@@ -33,6 +34,7 @@ Este projeto é distribuído sob a Licença MIT. Consulte o arquivo `LICENSE` na
 
 ---
 
+<a id="en"></a>
 ## 🇺🇸 Overview (EN)
 A number base converter focused on Balanced Ternary (−, 0, +). You can input a number in any base and see real-time conversions to the others. The UI includes a language toggle between Portuguese and English and a brief explanation of Radix Economy, which motivates the base ordering.
 
