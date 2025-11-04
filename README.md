@@ -4,35 +4,7 @@
 
 ---
 
-<a id="pt-br"></a>
-## 🇧🇷 Visão Geral (PT-BR)
-Um conversor de bases numéricas com foco no Ternário Balanceado (−, 0, +). Permite inserir um número em qualquer base e ver a conversão em tempo real para as demais. A interface traz um botão para alternar o idioma entre Português e Inglês e explica, de forma resumida, o conceito de Radix Economy que motiva a ordem das bases.
-
-### Recursos
-- Conversões entre várias bases: Ternário Balanceado, Binário, Octal, Nonário, Decimal e Hexadecimal.
-- Tradução PT/EN com persistência de preferência via localStorage.
-- Interface limpa e responsiva, com destaques visuais ao focar nos campos.
-- Validações básicas de entrada e feedback visual de erro.
-
-### Estrutura do Projeto
-- index.html — HTML principal da aplicação.
-- css/styles.css — Estilos (CSS) extraídos do HTML.
-- javascript/app.js — Lógica (JavaScript) extraída do HTML, incluindo i18n e conversões.
-- LICENSE — Licença MIT do projeto.
-- README.md — Este arquivo (PT-BR e EN).
-
-### Como Usar
-1. Abra o arquivo `index.html` no navegador.
-2. Digite um número em qualquer campo (ex.: Decimal) e veja as conversões automáticas nos demais campos.
-3. Use o botão “PT • EN” no canto superior esquerdo para alternar o idioma da interface.
-
-### Desenvolvimento Local
-Não há dependências de build. Basta clonar/baixar o projeto e abrir o `index.html` em um navegador moderno. Opcionalmente, sirva via um servidor estático local para evitar restrições de origem em alguns ambientes.
-
-### Licença
-Este projeto é distribuído sob a Licença MIT. Consulte o arquivo `LICENSE` na raiz para o texto completo. Os arquivos de código incluem comentários referenciando a licença.
-
----
+Live Link: https://randintn.github.io/radix-converter-balanced-trinary/
 
 <a id="en"></a>
 ## 🇺🇸 Overview (EN)
@@ -61,3 +33,36 @@ No build dependencies required. Simply clone/download the project and open `inde
 
 ### License
 This project is distributed under the MIT License. See the `LICENSE` file at the project root for the full text. Source files include comments referencing the license.
+
+<a id="pt-br"></a>
+
+Link Ao Vivo: https://randintn.github.io/radix-converter-balanced-trinary/
+
+## 🇧🇷 Visão Geral (PT-BR)
+Um conversor de bases numéricas com foco no Ternário Balanceado (−, 0, +). Permite inserir um número em qualquer base e ver a conversão em tempo real para as demais. A interface traz um botão para alternar o idioma entre Português e Inglês e explica, de forma resumida, o conceito de Radix Economy que motiva a ordem das bases.
+
+### Recursos
+- Conversões entre várias bases: Ternário Balanceado, Binário, Octal, Nonário, Decimal e Hexadecimal.
+- Tradução PT/EN com persistência de preferência via localStorage.
+- Interface limpa e responsiva, com destaques visuais ao focar nos campos.
+- Validações básicas de entrada e feedback visual de erro.
+
+### Estrutura do Projeto
+- index.html — HTML principal da aplicação.
+- css/styles.css — Estilos (CSS) extraídos do HTML.
+- javascript/app.js — Lógica (JavaScript) extraída do HTML, incluindo i18n e conversões.
+- LICENSE — Licença MIT do projeto.
+- README.md — Este arquivo (PT-BR e EN).
+
+### Como Usar
+1. Abra o arquivo `index.html` no navegador.
+2. Digite um número em qualquer campo (ex.: Decimal) e veja as conversões automáticas nos demais campos.
+3. Use o botão “PT • EN” no canto superior esquerdo para alternar o idioma da interface.
+
+### Desenvolvimento Local
+Não há dependências de build. Basta clonar/baixar o projeto e abrir o `index.html` em um navegador moderno. Opcionalmente, sirva via um servidor estático local para evitar restrições de origem em alguns ambientes.
+
+### Licença
+Este projeto é distribuído sob a Licença MIT. Consulte o arquivo `LICENSE` na raiz para o texto completo. Os arquivos de código incluem comentários referenciando a licença.
+
+---
